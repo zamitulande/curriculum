@@ -3,7 +3,7 @@ import React from "react";
 const Proyectos = () => {
   return (
     <div class="hobbies_wrap pb">
-      <div class="title">hobbies</div>
+      <div class="title">Proyectos</div>
       <div class="hobbies">
         <ul>
           <li>

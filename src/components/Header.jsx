@@ -5,11 +5,16 @@ const Header = () => {
     <div class="header">
       <div class="name_role">
         <div class="name">HULMAR ZAMI TULANDE ANTE</div>
-        <div class="enlace" class="git">        
-        <a class="enlace" href="https://github.com/zamitulande?tab=repositories">Ir a GitHub</a>
-        <i class="fab fa-github"  aria-hidden="true"></i>
-        </div>
         <div class="role">DESARROLLADOR FRONT-END</div>
+        <div class="git">   
+        <a class="enlace" href="/src/image/Curriculum.pdf" download>Descargar 
+        <i class="fas fa-file-pdf" aria-hidden="true"></i>
+        </a>     
+        <a class="enlace" href="https://github.com/zamitulande?tab=repositories">Ir a GitHub 
+        <i class="fab fa-github"  aria-hidden="true"></i>
+        </a>
+        </div>
+        
       </div>
       <div class="about">
         Tecnólogo en Análisis y desarrollo de Sistemas de Información del
