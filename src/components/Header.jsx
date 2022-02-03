@@ -5,6 +5,10 @@ const Header = () => {
     <div class="header">
       <div class="name_role">
         <div class="name">HULMAR ZAMI TULANDE ANTE</div>
+        <div class="enlace" class="git">        
+        <a class="enlace" href="https://github.com/zamitulande?tab=repositories">Ir a GitHub</a>
+        <i class="fab fa-github"  aria-hidden="true"></i>
+        </div>
         <div class="role">DESARROLLADOR FRONT-END</div>
       </div>
       <div class="about">

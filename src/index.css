@@ -7,19 +7,15 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
-body{
-	background: linear-gradient(to right, #3525af, #9153c9);
-}
-
 .resume{
 	width: 90%;
-	background: #fff;
+	background: #F4EEFF;
 	margin: 25px auto;
 	display: flex;
 }
 
 .left{
-	background: #292b2f;
+	background: #DCD6F7;
 	width: 270px;
 	padding: 0 20px;
 }
@@ -48,14 +44,14 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	padding-bottom: 10px;
-	color: #3525af;	
+	color: #424874;	
 	text-align: center;
 	margin-bottom: 15px;
 }
 
 .left .icon{
-	font-size: 35px;
-	color: #9153c9;
+	font-size: 45px;
+	color: #424874;
 }
 
 .contact .li_wrap{
@@ -78,7 +74,7 @@ body{
 .contact .li_wrap .text{
 	width: calc(100% - 50px);
 	word-break: break-word;
-	color: #fff;
+	color: #424874;
 }
 
 .skills ul,
@@ -100,7 +96,17 @@ body{
 }
 
 .skills .li_wrap{
+	background: ;
+	border: 2px solid #fff;
+}
+.skills .li_wrap:hover{
 	background: #fff;
+}
+
+
+.skills .li_wrap:hover .icon,
+.skills .li_wrap:hover .text{
+	color: #424874;
 }
 
 .skills .li_wrap .text,
@@ -114,7 +120,7 @@ body{
 
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text{
-	color: #fff;
+	color: #424874;
 }
 
 .hobbies .li_wrap:hover{
@@ -123,13 +129,13 @@ body{
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-	color: #9153c9;
+	color: #424874;
 }
 
 .header{
-	background: #292b2f;
+	background: #DCD6F7;
 	padding: 15px 30px;
-	color: #fff;
+	color: #424874;
 	
 }
 
@@ -137,14 +143,14 @@ body{
 	font-size: 72px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #3525af;
+	color: #424874;
 }
 
 .header .role{
 	margin-top: 30px;
 	font-weight: 500;
-	font-size: 40px;
-	text-align: right;
+	font-size: 60px;
+	text-align: left;
 	margin-right:70px
 }
 
@@ -152,11 +158,12 @@ body{
 	margin-top: 30px;
 	line-height: 26px;
 	margin-bottom:5px;
+	font-size: 30px;
 }
 
 .right_inner{
 	padding: 30px;
-	color: #292b2f;
+	color: #424874;
 }
 
 .right_inner .education{
@@ -170,7 +177,7 @@ body{
 
 .right_inner .li_wrap .date {
     width: 125px;
-    color: #9153c9;
+    color: #424874;
 }
 
 .right_inner .li_wrap .info{
@@ -215,4 +222,31 @@ body{
 	width: 2px;
 	height: 90%;
 	background: #9153c9;
+}
+.enlace{
+	color: #f1f1f1;
+	margin-top:20px;
+	font-weight: 500;
+	font-size: 20px;
+	margin-right:15px;
+	text-decoration:none;	
+	min-height: 50px;
+    width: 80px;
+    border-radius: 20%;
+    border-color: transparent;
+    background-color: #424874;
+    color: #fff;
+    border-width: 10;
+	padding: 20px 20px 20px 20px
+}
+.git{	
+	font-size: 50px;
+	color: #424874;
+	text-align: right;
+	margin-right:100px;
+	margin-top: 20px	
+}
+.enlace:hover{
+	background:#f1f1f1;
+	color: #9153c9
 }

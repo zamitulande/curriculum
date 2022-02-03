@@ -25,11 +25,9 @@ const Contacto = () => {
           <li>
             <div class="li_wrap">
               <div class="icon">
-                <i class="fab fa-github" aria-hidden="true"></i>
+                <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
               </div>
-              <div class="text">
-              <a class="text" href="https://github.com/zamitulande?tab=repositories"> Enlace Repositorio GitHub </a>
-               </div>
+              <div class="text">Popayán - Colombia</div>
             </div>
           </li>
           <li>
