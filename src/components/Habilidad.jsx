@@ -3,7 +3,7 @@ import React from "react";
 const Habilidad = () => {
   return (
     <div class="skills_wrap pb">
-      <div class="title">Habilidades</div>
+      <div class="title-h">Habilidades</div>
       <div class="skills">
         <ul>
           <li>
@@ -35,7 +35,7 @@ const Habilidad = () => {
               <div class="icon">
                 <i class="fab fa-react"></i>
               </div>
-              <div class="text">React.JS</div>
+              <div class="text">React</div>
             </div>
           </li>
           <li>

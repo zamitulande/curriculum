@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
 *{
-	margin: 0;
-	padding: 0;
+	margin: 2px;
+	padding: 1px;
 	list-style: none;
 	font-family: curier;
 }
 
 .resume{
-	width: 60%;
+	width: 70%;
 	background: #F4EEFF;
-	margin: 5px auto;
+	margin: 10px auto;
 	display: flex;
 }
 
 .left{
 	background: #DCD6F7;
-	width: 290px;
+	width: 350px;
 	padding: 0 20px;
 }
 
@@ -46,7 +46,16 @@
 	padding-bottom: 10px;
 	color: #424874;	
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
+}
+.title-h{
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #424874;	
+	text-align: center;
+	margin-top: 40px
 }
 
 .left .icon{
@@ -78,14 +87,28 @@
 	font-size:20px;
 }
 
-.skills ul,
+.skills ul{
+	margin-top:50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+
+}
 .hobbies ul{
 	
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.skills .li_wrap,
+.skills .li_wrap{
+	height: 100px;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size:120px;
+}
 .hobbies .li_wrap{	
 	height: 80px;
 	margin-bottom: 15px;
@@ -96,15 +119,6 @@
 	justify-content: center;
 }
 
-.skills .li_wrap{
-	background: ;
-	border: 2px solid #fff;
-}
-.skills .li_wrap:hover{
-	background: #fff;
-}
-
-
 .skills .li_wrap:hover .icon,
 .skills .li_wrap:hover .text{
 	color: #424874;
@@ -112,7 +126,8 @@
 
 .skills .li_wrap .text,
 .hobbies .li_wrap .text{
-	margin-top: 5px;
+	margin-top: 1px;
+	font-size:20px;
 }
 
 .hobbies .li_wrap{
@@ -145,14 +160,14 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #424874;
+	text-align: center;
 }
 
 .header .role{
 	margin-top: 30px;
 	font-weight: 500;
-	font-size: 60px;
-	text-align: left;
-	margin-right:70px
+	font-size: 40px;
+	text-align: center;
 }
 
 .header .about{
@@ -160,6 +175,7 @@
 	line-height: 40px;
 	margin-bottom:5px;
 	font-size: 30px;
+	text-align: justify;
 }
 
 .right_inner{
@@ -227,31 +243,22 @@
 .enlace{
 	color: #f1f1f1;
 	margin-top:20px;
-	font-weight: 500;
-	font-size: 30px;
-	margin-right:25px;
 	text-decoration:none;	
-	min-height: 50px;
-    width: 80px;
     border-radius: 20%;
-    border-color: transparent;
     background-color: #424874;
     color: #fff;
-    border-width: 10;
-	padding: 20px 20px 20px 20px
+	padding: 20px 20px 20px 20px;
 }
-.enlace .fas{
-	margin-left:20px
-}
+.enlace .fas,
 .enlace .fab{
-	margin-left:20px
+	margin-left:20px;
+	
 }
 .git{	
-	font-size: 50px;
+	font-size: 30px;
 	color: #424874;
-	text-align: right;
-	margin-right:330px;
-	margin-top: 20px	
+	margin-top: 60px;
+	text-align: center;	
 }
 .enlace:hover{
 	background:#f1f1f1;

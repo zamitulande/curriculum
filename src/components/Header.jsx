@@ -1,10 +1,11 @@
 import React from "react";
+import Habilidad from "./Habilidad";
 
 const Header = () => {
   return (
     <div class="header">
       <div class="name_role">
-        <div class="name">HULMAR ZAMI TULANDE ANTE</div>
+        <div class="name">HULMAR ZAMI TULANDE </div>
         <div class="role">DESARROLLADOR FRONT-END</div>
         <div class="git">   
         <a class="enlace" href="/src/image/Curriculum.pdf" download>Descargar 
@@ -24,6 +25,7 @@ const Header = () => {
         equipo, así como también dedicación y esfuerzo para cumplir con los
         objetivos trazados.
       </div>
+      <Habilidad />
     </div>
   );
 };
