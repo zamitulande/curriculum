@@ -10,7 +10,7 @@ const Experiencia = () => {
             <div class="li_wrap">
               <div class="date">2017 - 2019</div>
               <div class="info">
-                <p class="info_title">Desarrolador - Etapa Porductiva</p>
+                <p class="info_title">Desarrolador - Etapa Productiva</p>
                 <p class="info_com">Servicio Nacional de Aprendizaje SENA</p>
                 <p class="info_cont">
                   Implementación de página web para Egresados SENA, lenguaje de programación utilizado Java, otras herramientas:

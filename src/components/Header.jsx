@@ -8,7 +8,7 @@ const Header = () => {
         <div class="name">HULMAR ZAMI TULANDE </div>
         <div class="role">DESARROLLADOR FRONT-END</div>
         <div class="git">   
-        <a class="enlace" href="/src/image/Curriculum.pdf" download>Descargar 
+        <a class="enlace" href="/src/image/cv-actualizado.pdf" download>Descargar 
         <i class="fas fa-file-pdf" aria-hidden="true"></i>
         </a>     
         <a class="enlace" href="https://github.com/zamitulande?tab=repositories">Ir a GitHub 

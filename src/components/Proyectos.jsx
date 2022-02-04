@@ -8,34 +8,22 @@ const Proyectos = () => {
         <ul>
           <li>
             <div class="li_wrap">
-              <div class="icon">
-                <i class="fas fa-book"></i>
-              </div>
-              <div class="text">Reading</div>
+              <a class="text" href="https://flamboyant-shannon-93d188.netlify.app/">Presupuesto</a>
             </div>
           </li>
           <li>
             <div class="li_wrap">
-              <div class="icon">
-                <i class="fas fa-music"></i>
-              </div>
-              <div class="text">Music</div>
+            <a class="text" href="https://amazing-kilby-ac0e3e.netlify.app/">Hotel</a>
             </div>
           </li>
           <li>
             <div class="li_wrap">
-              <div class="icon">
-                <i class="fas fa-gamepad"></i>
-              </div>
-              <div class="text">Gaming</div>
+            <a class="text" href="https://awesome-almeida-e5cefd.netlify.app">Cotizador</a>
             </div>
           </li>
           <li>
             <div class="li_wrap">
-              <div class="icon">
-                <i class="fas fa-tree"></i>
-              </div>
-              <div class="text">Gardening</div>
+            <a class="text" href="https://elegant-dubinsky-ce2793.netlify.app/">Clima</a>
             </div>
           </li>
         </ul>

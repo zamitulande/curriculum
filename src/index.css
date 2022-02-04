@@ -119,15 +119,13 @@
 	justify-content: center;
 }
 
-.skills .li_wrap:hover .icon,
-.skills .li_wrap:hover .text{
-	color: #424874;
-}
-
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
+.skills .li_wrap .text{
 	margin-top: 1px;
 	font-size:20px;
+}
+.hobbies .li_wrap .text{
+	margin-top: 1px;
+	font-size:30px;
 }
 
 .hobbies .li_wrap{
@@ -137,17 +135,8 @@
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text{
 	color: #424874;
+	text-decoration:none;
 }
-
-.hobbies .li_wrap:hover{
-	background: #fff;
-}
-
-.hobbies .li_wrap:hover .icon,
-.hobbies .li_wrap:hover .text{
-	color: #424874;
-}
-
 .header{
 	background: #DCD6F7;
 	padding: 15px 30px;
@@ -260,7 +249,8 @@
 	margin-top: 60px;
 	text-align: center;	
 }
-.enlace:hover{
+.enlace:hover,
+.hobbies .li_wrap:hover{
 	background:#f1f1f1;
 	color: #9153c9
 }
