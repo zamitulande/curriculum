@@ -5,18 +5,20 @@
 	padding: 1px;
 	list-style: none;
 	font-family: curier;
+	
 }
 
 .resume{
-	width: 70%;
+	width: 1300px;
 	background: #F4EEFF;
-	margin: 10px auto;
+	margin: 20px auto;
 	display: flex;
+	
 }
 
 .left{
 	background: #DCD6F7;
-	width: 350px;
+	width: 200px;
 	padding: 0 20px;
 }
 
@@ -63,28 +65,22 @@
 	color: #424874;
 }
 
-.contact .li_wrap{
-	display: flex;
-	align-items: center;
-	width: 100%;
-	margin-bottom: 15px;
+.contact .li_wrap{	
+	width: 100%;	
 }
 
-.contact .li_wrap .icon{
-	width: 50px;
+.contact .li_wrap .icon{	
 	height: 50px;
 	border-radius: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-right: 10px;
 }
 
 .contact .li_wrap .text{
-	width: calc(100% - 10px);
-	word-break: break-word;
 	color: #424874;
 	font-size:20px;
+	margin-left:-20px
 }
 
 .skills ul{
@@ -203,6 +199,7 @@
 	font-weight: 300;
 	font-size: 14px;
 	margin-top: 3px;
+	
 }
 
 .right_inner .li_wrap .info_cont{
