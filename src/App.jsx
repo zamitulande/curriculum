@@ -1,30 +1,25 @@
-import Contacto from "./components/Contacto";
-import Educacion from "./components/Educacion";
-import Experiencia from "./components/Experiencia";
-import Header from "./components/Header";
-import Imagen from "./components/Imagen";
-import Proyectos from "./components/Proyectos";
+import Contacto from "./components/Contacto"
+import Cuerpo from "./components/Cuerpo"
+import Educacion from "./components/Educacion"
+import Experiencia from "./components/Experiencia"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+
 
 function App() {
+
+
   return (
-    <div class="wrapper">
-      <div class="resume">
-        <div class="left">
-          <Imagen/>
-          <Contacto />
-          
-          <Proyectos />
-        </div>
-        <div class="right">
-          <Header />
-          <div class="right_inner">
-            <Experiencia />
-            <Educacion />
-          </div>
-        </div>
-      </div>
+    <div class="container">
+    <Header/>
+    <Contacto/>    
+    <Cuerpo/>
+    <Educacion/>
+    <Experiencia/>
+    <Footer/>
     </div>
-  );
+   
+  )
 }
 
-export default App;
+export default App
