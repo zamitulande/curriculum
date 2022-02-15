@@ -14,7 +14,7 @@ const Contacto = () => {
             <div class="icono">
             <i class="fa-brands fa-whatsapp"></i>
               </div>
-              <div class="texto">+ 57 3177250502<button> <a href="https://wa.link/fiezyc">Hablar</a></button></div>
+              <div class="texto">+ 57 3177250502 <a href="https://wa.link/fiezyc">Hablar</a></div>
             </div>
           </li>
           <li>
@@ -22,7 +22,7 @@ const Contacto = () => {
               <div class="icono">
               <i class="fa-brands fa-github"></i>
               </div>
-              <div class="texto"> Repositorio GitHub<button> <a href="https://github.com/zamitulande">Ir</a></button></div>
+              <div class="texto"> Repositorio GitHub<a href="https://github.com/zamitulande">Ir</a></div>
                
             </div>
           </li>

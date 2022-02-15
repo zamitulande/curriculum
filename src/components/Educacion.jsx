@@ -5,7 +5,8 @@ const Educacion = () => {
     <div class="contenedor_educacion">  
      <div class="educacion">
       <div class="titulo">Educacion</div>
-      <div class="listado">       
+      <div class="listado"> 
+      <ul>    
           <li>
             <div class="li_edu">
               <div class="fecha">2017 - 2019</div>
@@ -60,7 +61,8 @@ const Educacion = () => {
                 <p class="info_d">GIT Y GITHUB - MODALIDAD VIRTUAL</p>                
               </div>
             </div>
-          </li>       
+          </li>
+          </ul>         
       </div>
     </div>
     
