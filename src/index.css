@@ -84,7 +84,7 @@ li {
   display: flex;
 }
 .icono_p {
-  margin-left: 32px;
+  margin-inline-start: 45px;
   font-size: 40px;
   
 }
@@ -141,6 +141,7 @@ color: #fff;
   text-align: center;
   font-size: 19px;
   color: black;
+  letter-spacing:4px;
 }
 .list_f {
   display: flex;
@@ -148,7 +149,7 @@ color: #fff;
 }
 .icono_f {
   text-align: center;
-  margin-left: 70px;
+  margin-left: 85px;
 }
 .copy {
   text-align: center;

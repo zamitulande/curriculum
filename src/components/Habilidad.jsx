@@ -4,7 +4,7 @@ const Habilidad = () => {
   return (
     
     <div class="habilidad">
-    <div class="titulo">Habilidades</div>
+    <div class="titulo">Habilidad</div>
          <ul>
           <li>
            

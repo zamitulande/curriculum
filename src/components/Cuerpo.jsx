@@ -13,7 +13,7 @@ const Cuerpo = () => {
         objetivos trazados.</p>
         </div>
         <div class="contenedor_proyectos">
-           <div class="titulo">P r o y e c t o s</div> 
+           <div class="titulo">Proyectos</div> 
             <div class="proyectos">
             <ul class="list_p">
     
