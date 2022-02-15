@@ -1,11 +1,27 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div class="footer">
-        <h1>Footer</h1>
+    <div class="contenedor_footer">
+      <div class="footer">
+        <ul class="list_f">
+          <li>
+            <div class="icono_f">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+          </li>
+          <li>
+            <div class="icono_f">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </li>
+        </ul>
+        <div>
+          <p class="copy">&copy; 2022 Zami Tulande</p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
