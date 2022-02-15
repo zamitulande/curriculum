@@ -2,10 +2,13 @@
   width: 100%;
   height: 100%;
   font-family: sans-serif;
+  background-color: #D6E6F2;
+  color: #393E46;
 }
 
 .header {
   display: flex;
+  
 }
 img {
   max-width: 30%;
@@ -20,6 +23,7 @@ img {
 .nombre {
   font-size: 20px;
   margin: 10px 0px 0px 5px;
+
 }
 .rol {
   font-size: 15px;
@@ -47,11 +51,16 @@ li {
 .icono {
   font-size: 30px;
   margin-left: -35px;
-  color: darkgrey;
+  color: #112D4E;
+  
+  
 }
 .icono_h {
   font-size: 40px;
   margin-left: -35px;
+  color: #112D4E;
+  
+  
 }
 .texto {
   margin-left: 5px;
@@ -62,10 +71,14 @@ li {
 .habilidad {
   text-align: center;
   width: 35%;
-  color: darkgrey;
+  color: #112D4E;
+  border-left: 4px solid black;
+  
 }
 .cuerpo {
   display: block;
+  border-top: 4px solid black;
+  margin-top: 2PX;
 }
 .list_p {
   display: flex;
@@ -73,9 +86,10 @@ li {
 .icono_p {
   margin-left: 32px;
   font-size: 40px;
+  
 }
 p {
-  margin-top: 0px;
+  margin-top: 8px;
   text-align: justify;
 }
 
@@ -87,7 +101,7 @@ p {
 }
 .li_edu {
   display: flex;
-  font-size: 8px;
+  font-size: 10px;
   margin-top: 20px;
 }
 .li_edu {
@@ -95,29 +109,33 @@ p {
   margin-top: -19px;
 }
 .fecha {
-  width: 30%;
+  width: 35%;
 }
 .info_edu {
   width: 50%;
   margin-top: 23px;
 }
 .info_i {
-  font-size: 14px;
+  font-size: 13px;
 }
 .info_d {
-  font-size: 9px;
-  margin-top: -10px;
-}
-button {
-  border: 1px solid black;
-  margin-left: 7px;
-  border-radius: 5px;
+  font-size: 10px;
+  margin-top: -14px;
 }
 a {
+  text-decoration: none;  
+}
+.a_link{
   text-decoration: none;
+ 
+  margin-left: 7px;
+  border-radius: 4px;  
+  padding: 4px 5px;
+  background-color: #112D4E;
+color: #fff;
 }
 .a_p {
-  color: darkgrey;
+   color: #112D4E;
 }
 .titulo {
   text-align: center;
