@@ -1,6 +1,6 @@
 import React from 'react'
 import Foto from '../image/foto.png'
-import Pdf from '../image/cv-actualizado.pdf'
+import Pdf from '../image/cv-zami.pdf'
 
 const Header = () => {
   return (
