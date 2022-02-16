@@ -4,6 +4,7 @@
   font-family: sans-serif;
   background-color: #15929b;
   color: #15929b;
+  align-items: center;
 }
 
 .header {
@@ -67,13 +68,11 @@ li {
   margin-left: -35px;
   color: #112d4e;
   text-shadow: 5px 5px 9px #5e656e;
-  
 }
 .texto {
   margin-left: 5px;
   font-size: 15px;
   margin-top: 5px;
-  
 }
 
 .habilidad {
@@ -83,7 +82,7 @@ li {
   border-radius: 10px;
 }
 .cuerpo {
-  display: block;  
+  display: block;
   margin-top: -8px;
   background: linear-gradient(to top, #15929b, #c9f5f7);
 }
@@ -169,20 +168,91 @@ a {
 }
 .descarga {
   margin-top: 10px;
-  font-size: 30px;  
+  font-size: 30px;
   text-align: center;
-  
 }
-.d_link{
+.d_link {
   background-color: #d6e6f2;
   color: #112d4e;
   text-shadow: 5px 5px 9px #5e656e;
   background-color: transparent;
-  
 }
-.contenedor_footer{
+.contenedor_footer {
   background: linear-gradient(to top, #15929b, #c9f5f7);
   margin-top: -20px;
   text-shadow: 5px 5px 9px #5e656e;
+}
+@media screen and (min-width: 480px) {
+  .nombre {
+    font-size: 44px;
+  }
+  .rol {
+    font-size: 25px;
+    margin: 7px 0px 20px 0px;
+  }
+  .icono {
+    margin-left: 125px;
+  }
+  .icono_p {
+    margin-inline-start: 155px;
+  }
+  .fecha {
+    width: 15%;
+    margin-left: 200px;
+  }
+  .contenedor_footer {
+    background: linear-gradient(to top, #15929b, #c9f5f7);
+    margin-top: -22px;
+    text-shadow: 5px 5px 9px #5e656e;
+  }
+  .icono_f {
+    text-align: center;
+    margin-left: 235px;
+    font-size: 30px;
+    color: #112d4e;
+  }
+}
+@media screen and (min-width: 1629px) {
+  img {
+    margin-left: 55px;
+    margin-top: 10px;
+  }
+  .rol {
+    font-size: 35px;
+    margin: 25px 30px 30px 0px;
+  }
+  .icono {
+    font-size: 30px;
+    margin-left: 405px;
+    color: #112d4e;
+    text-shadow: 5px 5px 9px #5e656e;
+  }
+  .texto {    
+    font-size: 19px;    
+  }
+
+  .habilidad {    
+    width: 5%;    
+  }
+  .list_p {
+    display: flex;
+  }
+  .icono_p {
+    margin-inline-start: 350px;
   
+  }
+  p {
+    margin: 0px 100px 40px 100px;
+    
+  }
+  .fecha {
+    width: 15%;
+    margin-left: 500px;
+  }
+  .icono_f {
+    text-align: center;
+    margin-left: 505px;
+    font-size: 30px;
+    color: #112d4e;
+  }
 }
