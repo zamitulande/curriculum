@@ -17,7 +17,7 @@ const Footer = () => {
           </li>
         </ul>
         <div>
-          <p class="copy">&copy; 2022 Zami Tulande</p>
+          <p class="copy">&copy; 2022</p>
         </div>
       </div>
     </div>

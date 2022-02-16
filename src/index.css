@@ -2,17 +2,19 @@
   width: 100%;
   height: 100%;
   font-family: sans-serif;
-  background-color: #d6e6f2;
-  color: #393e46;
+  background-color: #15929b;
+  color: #15929b;
 }
 
 .header {
   display: flex;
+  background: linear-gradient(to top, #15929b, #c9f5f7);
 }
 img {
   max-width: 30%;
   max-height: 100%;
   border-radius: 5px;
+  margin-right: 5px;
 }
 .nombre_rol {
   width: 100%;
@@ -22,15 +24,22 @@ img {
 .nombre {
   font-size: 20px;
   margin: 10px 0px 0px 5px;
+  color: #112d4e;
+  text-shadow: 5px 5px 9px #5e656e;
+  font-weight: 300;
 }
 .rol {
   font-size: 15px;
   text-align: right;
   margin: 12px 0px 20px 0px;
+  color: #112d4e;
+  text-shadow: 5px 5px 9px #5e656e;
+  font-weight: 300;
 }
 .contenedor_contacto {
   display: flex;
-  margin-top: 15px;
+  margin-top: 5px;
+  background: linear-gradient(to bottom, #15929b, #c9f5f7);
 }
 .contacto {
   width: 70%;
@@ -45,33 +54,38 @@ li {
 .li_info {
   display: flex;
   margin-top: 12px;
+  color: #112d4e;
 }
 .icono {
   font-size: 30px;
   margin-left: -35px;
   color: #112d4e;
+  text-shadow: 5px 5px 9px #5e656e;
 }
 .icono_h {
   font-size: 40px;
   margin-left: -35px;
   color: #112d4e;
+  text-shadow: 5px 5px 9px #5e656e;
+  
 }
 .texto {
   margin-left: 5px;
   font-size: 15px;
   margin-top: 5px;
+  
 }
 
 .habilidad {
   text-align: center;
   width: 35%;
   color: #112d4e;
-  border-left: 4px solid black;
+  border-radius: 10px;
 }
 .cuerpo {
-  display: block;
-  border-top: 4px solid black;
-  margin-top: 2px;
+  display: block;  
+  margin-top: -8px;
+  background: linear-gradient(to top, #15929b, #c9f5f7);
 }
 .list_p {
   display: flex;
@@ -79,14 +93,17 @@ li {
 .icono_p {
   margin-inline-start: 45px;
   font-size: 40px;
+  text-shadow: 5px 5px 9px #5e656e;
 }
 p {
   margin-top: 8px;
   text-align: justify;
+  color: #112d4e;
 }
 
 .educacion {
   align-items: center;
+  background: linear-gradient(to bottom, #15929b, #c9f5f7);
 }
 .listado {
   margin-top: 10px;
@@ -102,6 +119,7 @@ p {
 }
 .fecha {
   width: 35%;
+  color: #112d4e;
 }
 .info_edu {
   width: 50%;
@@ -119,12 +137,12 @@ a {
 }
 .a_link {
   text-decoration: none;
-
+  box-shadow: 5px 5px 9px #5e656e;
   margin-left: 7px;
   border-radius: 4px;
   padding: 4px 5px;
   background-color: #112d4e;
-  color: #fff;
+  color: rgb(194, 181, 181);
 }
 .a_p {
   color: #112d4e;
@@ -132,8 +150,9 @@ a {
 .titulo {
   text-align: center;
   font-size: 19px;
-  color: black;
+  color: #112d4e;
   letter-spacing: 4px;
+  font-weight: 100;
 }
 .list_f {
   display: flex;
@@ -142,6 +161,8 @@ a {
 .icono_f {
   text-align: center;
   margin-left: 85px;
+  font-size: 30px;
+  color: #112d4e;
 }
 .copy {
   text-align: center;
@@ -150,9 +171,18 @@ a {
   margin-top: 10px;
   font-size: 30px;  
   text-align: center;
+  
 }
 .d_link{
   background-color: #d6e6f2;
   color: #112d4e;
+  text-shadow: 5px 5px 9px #5e656e;
+  background-color: transparent;
+  
+}
+.contenedor_footer{
+  background: linear-gradient(to top, #15929b, #c9f5f7);
+  margin-top: -20px;
+  text-shadow: 5px 5px 9px #5e656e;
   
 }
