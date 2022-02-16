@@ -15,7 +15,8 @@ img {
   max-width: 30%;
   max-height: 100%;
   border-radius: 5px;
-  margin-right: 5px;
+  margin: 10px
+ 
 }
 .nombre_rol {
   width: 100%;
@@ -39,12 +40,13 @@ img {
 }
 .contenedor_contacto {
   display: flex;
-  margin-top: 5px;
+  margin: 5px;
   background: linear-gradient(to bottom, #15929b, #c9f5f7);
 }
 .contacto {
   width: 70%;
   height: 100%;
+  border-bottom: 2px solid #15929b;
 }
 
 ul,
@@ -54,7 +56,7 @@ li {
 }
 .li_info {
   display: flex;
-  margin-top: 12px;
+  margin: 12px;
   color: #112d4e;
 }
 .icono {
@@ -68,6 +70,7 @@ li {
   margin-left: -35px;
   color: #112d4e;
   text-shadow: 5px 5px 9px #5e656e;
+  border-left: 2px solid #15929b;
 }
 .texto {
   margin-left: 5px;
@@ -79,15 +82,17 @@ li {
   text-align: center;
   width: 35%;
   color: #112d4e;
-  border-radius: 10px;
+  
 }
 .cuerpo {
   display: block;
   margin-top: -8px;
   background: linear-gradient(to top, #15929b, #c9f5f7);
+  border-bottom: 2px solid #1b858d;
 }
 .list_p {
   display: flex;
+  border-bottom: 2px solid #15929b;
 }
 .icono_p {
   margin-inline-start: 45px;
@@ -95,14 +100,16 @@ li {
   text-shadow: 5px 5px 9px #5e656e;
 }
 p {
-  margin-top: 8px;
+  margin: 8px;
   text-align: justify;
-  color: #112d4e;
+  color: #112d4e;  
 }
 
 .educacion {
   align-items: center;
   background: linear-gradient(to bottom, #15929b, #c9f5f7);
+  border-bottom: 2px solid #15929b;
+  margin: 4px;
 }
 .listado {
   margin-top: 10px;
@@ -111,11 +118,10 @@ p {
   display: flex;
   font-size: 10px;
   margin-top: 20px;
-}
-.li_edu {
   align-items: center;
   margin-top: -19px;
 }
+
 .fecha {
   width: 35%;
   color: #112d4e;
@@ -123,13 +129,15 @@ p {
 .info_edu {
   width: 50%;
   margin-top: 23px;
+  border-left: 2px solid #15929b;
 }
 .info_i {
   font-size: 13px;
+
 }
 .info_d {
   font-size: 10px;
-  margin-top: -14px;
+  margin-top: -7px;
 }
 a {
   text-decoration: none;
@@ -162,6 +170,7 @@ a {
   margin-left: 85px;
   font-size: 30px;
   color: #112d4e;
+  margin-top: 8px;
 }
 .copy {
   text-align: center;
@@ -181,6 +190,7 @@ a {
   background: linear-gradient(to top, #15929b, #c9f5f7);
   margin-top: -20px;
   text-shadow: 5px 5px 9px #5e656e;
+  
 }
 @media screen and (min-width: 480px) {
   .nombre {
